@@ -1,0 +1,26 @@
+# Ignorar ambiente virtual
+venv/
+.Venv/
+ENV/
+env/
+*.venv
+pip-log.txt
+
+# Ignorar arquivos de compilação e cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar configurações de IDEs e editores de código
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignorar arquivos de dependências que podem ser recriados
+*.log
